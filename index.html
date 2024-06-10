@@ -3,49 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Odin: Landing Page</title>
 </head>
-<body> 
+<body>
 
-    <div class="header">
-        <h2>Header Logo</h2>
-        <nav> 
-            <a href="#">link 1</a>
-            <a href="#">link 2</a>
-            <a href="#">link 3</a>
-        </nav>
-         </div> 
+    <header>
+        <div class="header-top">
+            <h1>Header Logo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </nav>
+        </div>
 
-         <div class="body"> 
-            <h1>This website is awsome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, voluptates. Itaque, veniam possimus ratione accusamus aut animi voluptas deserunt reiciendis temporibus harum maxime laudantium inventore porro corrupti! Dicta, culpa beatae.</p>
-            <button>Sign up</button> 
-            <img src="image1.jpg" alt="constructionimage" width="300px" height="auto">
-
-          </div>
-
-          <div class="body2"> 
-
-            <h2>Some random information.</h2>
-            <img src="image2.jpg" alt="constructionimage" width="300px" height="auto"> 
-            <img src="image3.jpg" alt="constructionimage" width="300px" height="auto">
-            <img src="image4.jpg" alt="constructionimage" width="300px" height="auto">
-            <img src="image5.jpg" alt="constructionimage" width="300px" height="auto">
-            </div> 
-
-            <div class="body3 "> 
-
-                <h3> This is an inpspringing quote or a testimnaila bla bla bla </h3> 
-
-                <p>Thor, god of construciton</p>
-             </div>
-
-             <div class="body4"> 
-
-                <h3>call to action! Its time!</h3>
-                <p>sing for our product and dont miss out!!!!</p>
+        <div class="header-main">
+            <div class="header-info">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that  goes here under the main title. It's a smaller font and the color is lower contrast</p>
                 <button>Sign up</button>
-             </div>
-    
+            </div>
+
+            <div class="header-img">
+                <img src="images/placeholder.png" alt="placeholder">
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="main-info">
+            <h2>Some random information.</h2>
+            <div class="cards-container">
+                <div>
+                    <div></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div>
+                    <div></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div>
+                    <div></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div>
+                    <div></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-quote">
+            <p class="quote-text">
+                <em>
+                    This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+                </em>
+                <p class="quote-source">- Thor, God of Thunder</p>
+            </p>
+        </section>
+
+        <section class="main-action">
+            <div class="action-card">
+                <div class="action-info">
+                    <h3>Call to action! It's time!</h3>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button>Sign up</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; The Odin Project 2021</p>
+    </footer>
 </body>
 </html>
